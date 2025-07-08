@@ -1,0 +1,77 @@
+/* Reset and base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: white;
+  color: black;
+  line-height: 1.6;
+}
+
+nav {
+  background: white;
+  border-bottom: 2px solid #5CD4E6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-placeholder {
+  font-family: 'Times New Roman', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: black;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #5CD4E6; /* Aqua accent */
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-top: 30px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
